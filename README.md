@@ -801,7 +801,35 @@ Project Steps
 Remember to save your work frequently and ensure your name is displayed in the designated cell, as specified by your instructor or project guidelines.
 
 
+## Excel Solver Study Guide
 
+In this study guide, we will learn how to use Solver in Excel to solve a complex optimization problem. We will use the steps provided in the solution to Exercise 11.c, which involves determining the number of games a camp can hold on Fridays and Saturdays to maximize the weekly profit while taking into consideration various constraints.
+
+### Getting Started
+
+1. Open the Excel file SC_EX19_9b_FirstLastName_1.xlsx, which is available for download from the SAM website.
+2. Save the file as SC_EX19_9b_FirstLastName_2.xlsx by changing the “1” to a “2”.
+3. Ensure that your first and last name is displayed in cell B6 of the Documentation sheet. If cell B6 does not display your name, delete the file and download a new copy from the SAM website.
+4. Add the Solver Add-in if it is not already listed under the Analysis section of the Data ribbon. To add the Solver Add-in, click the File tab, click Options, and then click the Add-Ins category. In the Manage box, select Excel Add-ins and then click Go. In the Add-Ins box, check the Solver Add-in check box, and then click OK to install. If Solver Add-in is not listed in the Add-Ins available box, click Browse to locate it.
+
+### Using Solver to Solve the Optimization Problem
+
+1. Go to the Games worksheet.
+2. Click the Data tab, and then click Solver in the Analysis group.
+3. In the Solver Parameters dialog box, set the following values:
+   - Set the Objective to Total_Weekly_Profit (cell H17).
+   - Set the To value to Max.
+   - Set the By changing variable cells to C5:G6.
+   - Check the box for Make Unconstrained Variables Non-Negative.
+   - Set the Method to Simplex LP.
+   - Click the Add button to add the constraints listed in Table 3.
+4. Set each constraint by selecting the appropriate cell or range and choosing the appropriate relationship from the drop-down list.
+5. Click OK to close the Add Constraint dialog box and then click Solve to find the optimal solution. Ensure that the Keep Solver Solution option is selected.
+6. Once Solver has completed, save the Solver model in cell B27.
+
+### Conclusion
+
+By following these steps, we have learned how to use Solver in Excel to solve complex optimization problems. The solution to Exercise 11.c provides a clear and concise example of how to use Solver to determine the number of games a camp can hold on Fridays and Saturdays to maximize the weekly profit while taking into account various constraints.
 
 
 ### Hiding Columns, Selecting & Filtering Data, and Saving Files
